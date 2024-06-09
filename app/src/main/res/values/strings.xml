@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Herbal Ease</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_fav">Favorite</string>
+    <string name="title_discuss">Diskusi</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_search">Search</string>
+    <string name="title_detail">Detail</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="cari_bahan_makananmu_disini">Cari bahan makananmu disini</string>
+    <string name="cari_disini">Keluhan apa yang kamu alami?\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0</string>
+    <string name="lihat_lebih_banyak">Lihat lebih banyak</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="tidak_ada_bahan">Data tidak tersedia</string>
+    <string name="keyword">Keyword : </string>
+    <string name="kandungan">Kandungan : </string>
+    <string name="keluhan">Keluhan : </string>
+    <string name="manfaat">Khasiat</string>
+    <string name="resiko">Resiko</string>
+    <string name="koleksi">Koleksi</string>
+    <string name="resep_makanan">Resep Makanan</string>
+    <string name="diskusi">Diskusi</string>
+    <string name="cari_tanaman_herbal">Cari Tanaman Herbal</string>
+    <string name="rekomendasi_menu">Rekomendasi Menu</string>
+    <string name="cara_pembuatan">Cara Pembuatan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Sunting">Sunting</string>
+    <string name="Simpan">Simpan</string>
+    <string name="Batal">Batal</string>
+    <string name="scan">Scan</string>
+    <string name="ini_favorite_fragment">Ini Favorite Fragment</string>
+    <string name="title_favorite">favorite</string>
+    <string name="ini_discussion_fragment">Ini Discussion Fragment</string>
+</resources>

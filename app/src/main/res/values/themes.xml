@@ -1,0 +1,10 @@
+<resources>
+    <style name="Base.Theme.HerbalEase" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+    </style>
+
+    <style name="Theme.HerbalEase" parent="Base.Theme.HerbalEase">
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+</resources>

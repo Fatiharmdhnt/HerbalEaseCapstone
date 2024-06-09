@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.project.HerbalEase.ui.main.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.project.HerbalEase.ui.search.SearchFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/activity_search" />
+
+    <fragment
+        android:id="@+id/navigation_detail"
+        android:name="com.project.HerbalEase.ui.detail.ingredients_detail.IngredientsDetailFragment"
+        android:label="@string/title_detail"
+        tools:layout="@layout/activity_ingredients_detail" />
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.project.HerbalEase.ui.main.ui.Favorite.FavoriteFragment"
+        android:label="@string/title_favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/navigation_discuss"
+        android:name="com.project.HerbalEase.ui.main.ui.Diskusi.DiscussionFragment"
+        android:label="fragment_discussion"
+        tools:layout="@layout/fragment_discussion" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.project.HerbalEase.ui.main.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_navigation_profile_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.project.HerbalEase.ui.main.ui.profile.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" />
+
+
+
+</navigation>
